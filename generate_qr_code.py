@@ -18,4 +18,4 @@ if __name__ == "__main__":
     data = "Gurmeet Singh"
 
     # Generate QR code image
-    generate_qr_code(data, "qrcode.png")
+ generate_qr_code(data, "qrcode.png")
