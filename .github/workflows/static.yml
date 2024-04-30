@@ -21,12 +21,13 @@ jobs:
 
     - name: Run justchilling.py
       run: python justchilling.py
-   run_python_script 2:  
-     needs: run_python_script
-     name: Run hello.py 2
-     runs-on: ubuntu-latest
+      
+  run_python_script_5:  
+    needs: run_python_script
+    name: Run hello.py 2
+    runs-on: ubuntu-latest
 
-     steps:
+    steps:
      - name: Checkout repository 
        uses: actions/checkout@v2
 
